@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view_flight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="1dp"
+    tools:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewUser"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/imageViewUser"
+                android:layout_toRightOf="@+id/imageViewUser"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="admin"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textViewType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="admin"
+                    android:textSize="14sp"
+                    tools:text="admin"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewRepos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/viewDivider"
+                android:layout_toStartOf="@+id/viewDivider"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Visit to repositories"
+                android:textColor="@color/md_blue_700"
+                android:textStyle="bold"
+                tools:text="Visit to repositories"/>
+
+            <View
+                android:id="@+id/viewDivider"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@color/md_grey_600"/>
+
+            <TextView
+                android:id="@+id/textViewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/viewDivider"
+                android:layout_toRightOf="@+id/viewDivider"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Visit to profile"
+                android:textColor="@color/md_green_700"
+                android:textStyle="bold"
+                tools:text="Visit to profile"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

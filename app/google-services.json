@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478616548780",
+    "firebase_url": "https://githubusers-c613a.firebaseio.com",
+    "project_id": "githubusers-c613a",
+    "storage_bucket": "githubusers-c613a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478616548780:android:bf1a8c5d6a352779",
+        "android_client_info": {
+          "package_name": "io.studio.githubdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478616548780-b08intq0cutm2k57cr6lv4em5dt18bbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.studio.githubdemo",
+            "certificate_hash": "b6de6ac225b8b61a0a28aa854daaf9599b3bf647"
+          }
+        },
+        {
+          "client_id": "478616548780-rnado44b3qhu4cqf470pboopfs11k5gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS69e7AY4CDQ3qLKQkEstpB68uZ7LRsGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478616548780-rnado44b3qhu4cqf470pboopfs11k5gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
